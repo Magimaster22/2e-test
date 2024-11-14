@@ -1,0 +1,29 @@
+@import url("./reset.css");
+
+body{
+    background-color: tomato;
+}
+
+a{
+    color: white;
+    font-size: 2rem;
+}
+
+li{
+    border: 2px solid white;
+    padding: 1.6rem;
+}
+
+li:hover{
+    transform: translate(30px, 30px);
+    transform: scale(1.1);
+}
+
+ul{
+    display: flex;
+}
+
+a:hover{
+    color: gold;
+    transition: 400ms ease-in-out;
+}
